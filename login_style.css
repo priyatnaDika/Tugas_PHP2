@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    color: rgb(211, 92, 92);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(media/wp6489905-valorant-reyna-wallpapers.png);
+    padding: 10px;
+    background-size: cover;
+}
+
+.btn-login {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px rgb(211, 92, 92);
+    width: 92.5%;
+    padding: 10px;
+    color: rgb(211, 92, 92);
+    font-size: 18px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background: rgba(36, 23, 85, 0.5);
+}
+
+.login {
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0px 0px 25px 10px rgbargba(36, 23, 85, 0.5);
+    background: rgba(36, 23, 85, 0.5);
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.login .title {
+    color: rgb(211, 92, 92);
+    font-size: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.login .title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: rgb(211, 92, 92);
+}
+
+.login form .main {
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .main .box {
+    margin: 40px 0 20px 0;
+    width: calc(200% / 2 - 20px);
+}
+
+.main .box .detail {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.main .box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid green;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+form a {
+    display: block;
+    color: rgb(211, 92, 92);
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
